@@ -11,7 +11,7 @@
   ],
   "scripts": {
     "prepublish": "./prepublish.sh",
-    "preinstall": "./preinstall.sh",
+    "postinstall": "./postinstall.sh",
     "test": "./test/test.sh"
   },
   "author": "Nicholas McCready",

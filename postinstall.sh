@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e -o pipefail
 
-preinstall() {
+postinstall() {
   # binary dependencies
   # if you want to support more than macos, please make PRS
   # to check different OSes
@@ -13,4 +13,4 @@ preinstall() {
 #if sourced abort / exit
 (return 0 2>/dev/null) && return
 
-preinstall
+postinstall
