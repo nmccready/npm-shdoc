@@ -1,0 +1,21 @@
+{
+  "name": "npm-shdoc",
+  "version": "0.0.1",
+  "description": "",
+  "bin": {
+    "shdoc": "dist/shdoc"
+  },
+  "files": [
+    "./dist/shdoc"
+  ],
+  "scripts": {
+    "prepublish": "./prepublish.sh",
+    "preinstall": "./preinstall.sh",
+    "test": "./test/test.sh"
+  },
+  "author": "Nicholas McCready",
+  "repository": {
+    "url": "https://github.com/nmccready/npm-shdoc"
+  },
+  "license": "MIT"
+}
