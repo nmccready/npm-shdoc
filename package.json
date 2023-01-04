@@ -6,7 +6,8 @@
     "shdoc": "dist/shdoc"
   },
   "files": [
-    "./dist/shdoc"
+    "./dist/shdoc",
+    "./preinstall.sh"
   ],
   "scripts": {
     "prepublish": "./prepublish.sh",
