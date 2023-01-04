@@ -11,7 +11,7 @@
   ],
   "scripts": {
     "prepublish": "./prepublish.sh",
-    "postinstall": "./postinstall.sh",
+    "postinstall": "chmod +x ./postinstall.sh && ./postinstall.sh",
     "test": "./test/test.sh"
   },
   "author": "Nicholas McCready",
