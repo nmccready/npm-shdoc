@@ -3,7 +3,8 @@
   "version": "0.0.9",
   "description": "",
   "bin": {
-    "shdoc": "dist/shdoc"
+    "shdoc": "dist/shdoc",
+    "shdoc.sh": "shdoc.sh"
   },
   "files": [
     "./dist/shdoc",
