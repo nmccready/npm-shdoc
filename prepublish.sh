@@ -8,7 +8,7 @@ prepublish() {
 
   # make the os env find the gawk installation
   # https://github.com/reconquest/shdoc/issues/24
-  sed "s/\#\!\/usr\/bin\/gawk -f/\#\!\/usr\/bin\/env gawk -f/" shdoc > dist/shdoc
+  sed "s/\#\!\/usr\/bin\/gawk -f/\#\!\/usr\/bin\/env -S gawk -f/" shdoc > dist/shdoc
   chmod +x dist/shdoc
 }
 #if sourced abort / exit

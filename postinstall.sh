@@ -6,7 +6,12 @@ postinstall() {
   # if you want to support more than macos, please make PRS
   # to check different OSes
   if [[ ! $(which gawk) ]]; then
-    brew install gawk
+    if [[ $(uname) == 'Darwin' ]]; then
+      brew install gawk
+    else
+      echo "gawk >= 4.X+ needs to be installed to a PATH"
+      exit 1
+    fi
   fi
 }
 
