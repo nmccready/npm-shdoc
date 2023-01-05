@@ -9,8 +9,8 @@ postinstall() {
     if [[ $(uname) == 'Darwin' ]]; then
       brew install gawk
     else
-      echo "gawk >= 4.X+ needs to be installed to a PATH"
-      exit 1
+      echo "warning: gawk >= 4.X+ needs to be installed to a PATH"
+      exit 0
     fi
   fi
 }
