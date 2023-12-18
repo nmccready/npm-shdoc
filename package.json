@@ -16,6 +16,9 @@
     "postinstall": "chmod +x ./postinstall.sh && ./postinstall.sh",
     "test": "./test/test.sh"
   },
+  "shellDependencies": {
+    "shdoc": "1.2"
+  },
   "author": "Nicholas McCready",
   "repository": {
     "url": "https://github.com/nmccready/npm-shdoc"
