@@ -17,7 +17,8 @@
     "test": "./test/test.sh"
   },
   "shellDependencies": {
-    "shdoc": "1.2"
+    "shdoc": "1.1",
+    "gawk": "5.2.2"
   },
   "author": "Nicholas McCready",
   "repository": {
